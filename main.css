@@ -44,6 +44,7 @@ p {
 
 a {
   color: #ff4081;
+  transition: 0.2s easy-in-out;
 }
 
 a:active,
@@ -146,6 +147,7 @@ a:focus {
 .form.is-visible {
   height: auto;
   opacity: 1;
+  transition: opacity 0.2s easy-in-out, visibility 0.2 easy-in-out;
   visibility: visible;
 }
 
