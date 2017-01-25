@@ -25,7 +25,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-
+  margin-top: 5px;
+  margin-bottom: 0;
 }
 
 ol, ul {
@@ -118,6 +119,36 @@ a:focus {
   height: auto;
   opacity: 1;
   visibility: visible;
+}
+
+
+/*----------------------------------
+*     Animation
+----------------------------------*/
+.modal {
+  background-color: #fff;
+  left: 50%;
+  position: absolute;
+  top: 40px;
+  transform: translate(-50%, 0);
+  width: 500px;
+}
+
+.modal-media {
+  position: relative;
+}
+
+.modal-media-title {
+  color: #fff;
+  bottom: 20px;
+  left: 20px;
+  font-size: 30px;
+  position: absolute;
+}
+
+
+.modal-content {
+  padding: 20px;
 }
 
 
