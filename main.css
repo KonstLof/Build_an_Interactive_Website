@@ -88,7 +88,7 @@ a:focus {
 
 .news-link {
   color: #3f51b5;
-  font-size: 24px;
+  font-size: 20px;
   display: block;
   margin-bottom: 10px;
 }
@@ -123,15 +123,19 @@ a:focus {
 
 
 /*----------------------------------
-*     Animation
+*     Modal
 ----------------------------------*/
 .modal {
   background-color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
   left: 50%;
   position: absolute;
   top: 40px;
   transform: translate(-50%, 0);
-  width: 500px;
+  width: 400px;
+  z-index: 2;
 }
 
 .modal-media {
@@ -146,9 +150,21 @@ a:focus {
   position: absolute;
 }
 
-
 .modal-content {
   padding: 20px;
+}
+
+.modal-overlay {
+  background-color: #212121;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 
