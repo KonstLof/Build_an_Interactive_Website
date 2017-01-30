@@ -86,6 +86,12 @@ a:focus {
   padding-bottom: 20px;
 }
 
+.news-item:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 .news-link {
   color: #3f51b5;
   font-size: 20px;
@@ -98,6 +104,13 @@ a:focus {
   margin-right: 15px;
 }
 
+
+/*----------------------------------
+*     Content
+----------------------------------*/
+.content {
+  margin-bottom: 40px;
+}
 
 /*----------------------------------
 *     Container
@@ -160,7 +173,7 @@ a:focus {
   height: 100%;
   left: 0;
   opacity: 0.3;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
   width: 100%;
